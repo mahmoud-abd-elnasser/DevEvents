@@ -5,14 +5,14 @@ import { events } from "@/lib/constants";
 const page = () => {
   return (
     <section>
-      <h1 className="text-center">
+      <p className="text-center text">
         The Hub for Every Dev
         <br /> Event You Can&apos;t Miss
-      </h1>
+      </p>
       <p className="mt-5 text-center">
         Hackathons, Meetups, and Conferences, All in One Place
       </p>
-      <div className="w-full flex items-center">
+      <div className="w-full flex items-center justify-center mt-5">
         <ExploreBtn />
       </div>
       <div className="mt-20 space-y-7">
